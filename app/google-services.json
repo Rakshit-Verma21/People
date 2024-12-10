@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "877712486486",
+    "project_id": "people-43d05",
+    "storage_bucket": "people-43d05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877712486486:android:540db64a3378825b150bf7",
+        "android_client_info": {
+          "package_name": "com.example.people"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL5ZOvQul_upyKCFVOdvRow-3X-hfPJvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
