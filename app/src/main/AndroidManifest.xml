@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.People"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.Post_Creator"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.View_Uploads_Activity"
+            android:exported="false"
+            android:theme="@style/Base.Theme.People_black" />
+        <activity
+            android:name=".Activities.friends"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Search_Users"
+            android:exported="false"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity
+            android:name=".Activities.Chat_Activity"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ViewProfile"
+            android:exported="false"
+            android:parentActivityName=".Activities.MainActivity"
+            android:theme="@style/Base.Theme.People2" />
+        <activity
+            android:name=".Activities.SignUp_activity"
+            android:exported="false"
+            android:parentActivityName=".Activities.Login_page" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="false"
+            android:theme="@style/Base.Theme.People" />
+        <activity
+            android:name=".Activities.Login_page"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Splash_Screen"
+            android:exported="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
