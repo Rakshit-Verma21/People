@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        app:cardPreventCornerOverlap="true">
+
+        <ImageView
+            android:id="@+id/imageViewcv"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            tools:srcCompat="@drawable/empty_profie" />
+
+        <VideoView
+            android:id="@+id/videoView2cv"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_round"
+            app:srcCompat="@drawable/baseline_play_arrow_24" />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

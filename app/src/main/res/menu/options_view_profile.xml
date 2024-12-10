@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/friendlist"
+        android:icon="@drawable/friends"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/signout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/reset_password"
+        android:title="Reset Password" />
+    <item
+        android:id="@+id/verify"
+        android:title="Verify Email" />
+</menu>
